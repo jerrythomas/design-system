@@ -860,7 +860,7 @@
   "light": {
     "fg": {
       "default": {
-        "value": "{colors.black}",
+        "value": "{skin.900}",
         "type": "color"
       },
       "muted": {
@@ -874,7 +874,7 @@
     },
     "bg": {
       "default": {
-        "value": "{colors.white}",
+        "value": "{skin.50}",
         "type": "color"
       },
       "muted": {
@@ -888,7 +888,7 @@
     },
     "accent": {
       "default": {
-        "value": "{colors.indigo.400}",
+        "value": "{secondary.500}",
         "type": "color"
       },
       "onAccent": {
@@ -910,7 +910,7 @@
   "dark": {
     "fg": {
       "default": {
-        "value": "{colors.white}",
+        "value": "{skin.50}",
         "type": "color"
       },
       "muted": {
@@ -924,7 +924,7 @@
     },
     "bg": {
       "default": {
-        "value": "{colors.gray.900}",
+        "value": "{skin.900}",
         "type": "color"
       },
       "muted": {
@@ -1076,7 +1076,7 @@
       }
     },
     "selected": {
-      "value": "linear-gradient(90deg, $primary.500, $secondary.500)",
+      "value": "linear-gradient(90deg, $primary.500 0%, $secondary.500 100%)",
       "type": "color"
     }
   },
