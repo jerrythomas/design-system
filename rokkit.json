@@ -1097,6 +1097,27 @@
       "content": {
         "value": "{prose.paragraph}",
         "type": "typography"
+      },
+      "label": {
+        "value": {
+          "fontFamily": "{fontFamilies.montserrat}",
+          "fontWeight": "{fontWeights.montserrat-6}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "description": "Labels on widgets"
+      }
+    },
+    "label": {
+      "fg": {
+        "value": "{primary.500}",
+        "type": "color"
       }
     }
   },
