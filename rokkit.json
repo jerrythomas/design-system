@@ -1084,6 +1084,20 @@
         "value": "#ffffff",
         "type": "color"
       }
+    },
+    "widget": {
+      "title": {
+        "value": "{prose.h3}",
+        "type": "typography"
+      },
+      "subtitle": {
+        "value": "{prose.h4}",
+        "type": "typography"
+      },
+      "content": {
+        "value": "{prose.paragraph}",
+        "type": "typography"
+      }
     }
   },
   "$themes": [],
