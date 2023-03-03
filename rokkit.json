@@ -1091,7 +1091,17 @@
         "type": "typography"
       },
       "subtitle": {
-        "value": "{prose.h4}",
+        "value": {
+          "fontFamily": "{fontFamilies.zilla-slab}",
+          "fontWeight": "{fontWeights.zilla-slab-1}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
         "type": "typography"
       },
       "content": {
